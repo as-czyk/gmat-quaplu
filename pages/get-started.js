@@ -3,17 +3,10 @@ import Button from "../components/ui/Button";
 import Input from "../components/ui/Input";
 
 export default function GetStarted() {
-  const servicesItems = [
-    "Mobile development",
-    "UI/UX Design",
-    "web development",
-    "SEO",
-  ];
-
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact us - Quaplu</title>
       </Head>
       <div className="pt-28 pb-12">
         <div className="custom-screen text-gray-600">

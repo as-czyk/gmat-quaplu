@@ -23,9 +23,7 @@ export default function Home() {
       <GradientWrapper>
         <ToolKit />
       </GradientWrapper>
-      <GradientWrapper>
-        <FooterCTA />
-      </GradientWrapper>
+      <FooterCTA />
     </>
   );
 }

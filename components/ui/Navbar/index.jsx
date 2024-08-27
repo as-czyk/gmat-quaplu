@@ -100,6 +100,15 @@ const Navbar = () => {
                   Join the waitlist
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  href=""
+                  className="text-gray-700 border hover:bg-gray-50"
+                  scroll={false}
+                >
+                  Tell us more
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

@@ -102,7 +102,8 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  href=""
+                  target="_blank"
+                  href="https://forms.gle/tzXi9ppdxvLno38r7"
                   className="text-gray-700 border hover:bg-gray-50"
                   scroll={false}
                 >

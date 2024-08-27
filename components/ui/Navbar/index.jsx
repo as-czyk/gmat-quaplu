@@ -95,7 +95,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   href="/get-started"
-                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
+                  className="block font-medium text-sm text-white bg-primary-600 hover:bg-primary-800 active:bg-gray-900 md:inline"
                 >
                   Let's work
                 </NavLink>

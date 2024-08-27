@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta name='robots' content='index' />
+        <meta name="robots" content="index" />
       </Head>
       <Hero />
       <LogoGrid />
@@ -20,11 +20,12 @@ export default function Home() {
         <Features />
         <CTA />
       </GradientWrapper>
-      <ToolKit />
       <GradientWrapper>
-        <Testimonials />
+        <ToolKit />
       </GradientWrapper>
-      <FooterCTA />
+      <GradientWrapper>
+        <FooterCTA />
+      </GradientWrapper>
     </>
   );
 }

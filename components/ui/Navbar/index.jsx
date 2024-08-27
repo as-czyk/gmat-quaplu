@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navigation = [
     { title: "Features", path: "#features" },
-    { title: "Our toolkit", path: "#toolkit" },
+    { title: "Our Approach", path: "#toolkit" },
   ];
 
   useEffect(() => {
@@ -97,7 +97,7 @@ const Navbar = () => {
                   href="/get-started"
                   className="block font-medium text-sm text-white bg-primary-600 hover:bg-primary-800 active:bg-gray-900 md:inline"
                 >
-                  Let's work
+                  Join the waitlist
                 </NavLink>
               </li>
             </ul>

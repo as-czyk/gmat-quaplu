@@ -1,7 +1,7 @@
 import Image from "next/image";
 import visualOne from "../../../public/Visual_One.png";
 import visualTwo from "../../../public/Visual_Two.png";
-import NavLink from "../NavLink";
+import visualThree from "../../../public/Visual_Three.png";
 
 const CTA = () => {
   return (
@@ -25,12 +25,6 @@ const CTA = () => {
               and conditions as the real test, so you can build your confidence
               and improve your time management skills.
             </p>
-            <NavLink
-              href="/get-started"
-              className="inline-block mt-4 font-medium text-sm text-white bg-primary-600 hover:bg-primary-800 active:bg-indigo-800"
-            >
-              Join the waitlist
-            </NavLink>
           </div>
         </div>
         <div className="items-center gap-x-12 lg:flex">
@@ -43,16 +37,10 @@ const CTA = () => {
               technology continuously generates an unlimited amount of GMAT
               preparation tasks, tailored to your specific needs.
             </p>
-            <NavLink
-              href="/get-started"
-              className="inline-block mt-4 font-medium text-sm text-white bg-primary-600 hover:bg-primary-800"
-            >
-              Join the waitlist
-            </NavLink>
           </div>
           <div className="flex-1 sm:hidden lg:block">
             <Image
-              src={visualTwo}
+              src={visualThree}
               className="rounded-lg md:max-w-lg"
               alt="Create Successful Business Models with Our IT Solutions"
             />
@@ -62,7 +50,7 @@ const CTA = () => {
           <div className="items-center gap-x-12 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
               <Image
-                src={visualOne}
+                src={visualTwo}
                 className="rounded-lg md:max-w-lg"
                 alt="Create Successful Business Models with Our IT Solutions"
               />
@@ -77,12 +65,6 @@ const CTA = () => {
                 weaknesses, and schedule. Whether you're a math whiz or need
                 extra help with verbal, we’ve got you covered.
               </p>
-              <NavLink
-                href="/get-started"
-                className="inline-block mt-4 font-medium text-sm text-white bg-primary-600 hover:bg-primary-800"
-              >
-                Join the waitlist
-              </NavLink>
             </div>
           </div>
         </div>

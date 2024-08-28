@@ -2,9 +2,7 @@
 
 import { sql } from "@vercel/postgres";
 
-export const addEmail = async (formData) => {
-  const email = formData.get("email");
-  console.log(email);
+export const addEmail = async (email) => {
   try {
     await sql`
       INSERT INTO EMAIL (email)

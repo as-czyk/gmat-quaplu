@@ -1,34 +1,30 @@
-"use-client";
-
-import { useRef } from "react";
-import Input from "../Input";
+import { sql } from "@vercel/postgres";
 import Button from "../Button";
-import addEmail from "../../../actions/actions";
+import Input from "../Input";
 
 const SignupForm = () => {
-  const ref = useRef(null);
+  const handleSubmit = async (email) => {
+    try {
+      await sql`
+        INSERT INTO EMAIL (email)
+        VALUES (${email})
+      `;
+      return true;
+    } catch (error) {
+      console.error("Failed to insert email:", error);
+      return false;
+    }
+  };
 
   return (
-    <form
-      action={async (formData) => {
-        ref.current?.reset();
-        const res = await addEmail(formData);
-
-        if (res) {
-          console.log("ADDED");
-        } else {
-          console.log("NOT ADDED");
-        }
-      }}
-      className="space-y-5 font-medium"
-    >
+    <form onSubmit={handleSubmit} className="space-y-5 font-medium">
       <div>
         <label>Email *</label>
         <Input
           aria-label="Email"
           type="email"
           required
-          className="mt-2 focus:border-indigo-600"
+          className="mt-2 focus:primary-600"
         />
       </div>
       <div className="pt-1">

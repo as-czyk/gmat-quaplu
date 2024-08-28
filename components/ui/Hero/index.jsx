@@ -6,7 +6,7 @@ const Hero = () => (
       <div className="space-y-5 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
           Taking your{" "}
-          <span className="inline-block bg-white text-primary-600">
+          <span className="inline-block bg-red text-primary-600">
             GMAT Preperation
           </span>{" "}
           into the AI Century

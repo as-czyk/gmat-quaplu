@@ -24,7 +24,7 @@ const FooterCTA = () => (
           </NavLink>
           <NavLink
             target="_blank"
-            href="https://forms.gle/tzXi9ppdxvLno38r7"
+            href="https://form.typeform.com/to/TFlwT9Fc"
             className="mt-4 inline-block font-medium text-sm text-gray-700 border hover:bg-gray-50"
           >
             Tell us more

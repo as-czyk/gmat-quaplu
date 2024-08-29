@@ -4,7 +4,8 @@ import CTA from "../components/ui/CTA";
 import FooterCTA from "../components/ui/FooterCTA";
 import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
-import ToolKit from "../components/ui/ToolKit";
+import Calendly from "../components/ui/calendly";
+import CalendlyEmbed from "../components/ui/calendly";
 
 export default function Home() {
   return (
@@ -17,6 +18,13 @@ export default function Home() {
       <GradientWrapper>
         <CTA />
       </GradientWrapper>
+      <GradientWrapper>
+        <div className={"flex-col"}>
+          <h3>Hhadfiouasdhfdo</h3>
+          <CalendlyEmbed url={"https://calendly.com/aron-quaplu/gmat"} />
+        </div>
+      </GradientWrapper>
+
       <FooterCTA />
     </>
   );

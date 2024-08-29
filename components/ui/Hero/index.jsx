@@ -6,15 +6,13 @@ const Hero = () => (
     <div className="custom-screen py-28 text-gray-600">
       <div className="space-y-5 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
-          Taking your{" "}
-          <span className="inline-block bg-red text-primary-600">
-            GMAT Preperation
-          </span>{" "}
-          into the AI Century
+          Ace the{" "}
+          <span className="inline-block bg-red text-primary-600">GMAT</span>{" "}
+          with ease
         </h1>
         <p className="text-2xl max-w-xl mx-auto">
-          Our tailored preparation saves you time and money, ensuring you're
-          ready for success.{" "}
+          Take your preperation to the next level with unlimited exercises and
+          personalized study plans.
         </p>
         <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
           <NavLink

@@ -20,7 +20,9 @@ export default function Home() {
       </GradientWrapper>
       <GradientWrapper>
         <div className={"flex-col"}>
-          <CalendlyEmbed url={"https://calendly.com/aron-quaplu/gmat"} />
+          <CalendlyEmbed
+            url={"https://calendly.com/aron-quaplu/gmat?hide_gdpr_banner=1"}
+          />
         </div>
       </GradientWrapper>
 

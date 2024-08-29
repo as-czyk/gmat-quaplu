@@ -19,7 +19,17 @@ export default function Home() {
         <CTA />
       </GradientWrapper>
       <GradientWrapper>
-        <div className={"flex-col"}>
+        <div className={"flex-col text-center"}>
+          <div className={"mt-16"}>
+            <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+              Lets talk about your GMAT prep
+            </h2>
+            <p className={"mt-4"}>
+              Help us identify your needs and goals, in exchange we support you
+              with{" "}
+              <span className={"font-bold"}>20 gmat practice questions.</span>
+            </p>
+          </div>
           <CalendlyEmbed
             url={"https://calendly.com/aron-quaplu/gmat?hide_gdpr_banner=1"}
           />

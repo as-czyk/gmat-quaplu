@@ -1,4 +1,5 @@
 import NavLink from "../NavLink";
+import SignupForm from "../Signupform";
 
 const Hero = () => (
   <section>
@@ -11,9 +12,10 @@ const Hero = () => (
           </span>{" "}
           into the AI Century
         </h1>
-        <p className="max-w-xl mx-auto">
-          Take your prep to the next level with unlimited exercises and detailed
-          progress tracking.
+        <p className="text-2xl max-w-xl mx-auto">
+          Achieve your target GMAT score efficiently without breaking the bank.
+          Our tailored preparation saves you time and money, ensuring you're
+          ready for success.{" "}
         </p>
         <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
           <NavLink

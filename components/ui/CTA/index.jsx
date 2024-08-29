@@ -11,8 +11,9 @@ const CTA = () => {
           <div className="flex-1 sm:hidden lg:block">
             <Image
               src={visualOne}
+              width={400}
               className="rounded-lg md:max-w-lg"
-              alt="Create Successful Business Models with Our IT Solutions"
+              alt="Realstic mock test"
             />
           </div>
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
@@ -40,9 +41,10 @@ const CTA = () => {
           </div>
           <div className="flex-1 sm:hidden lg:block">
             <Image
+              width={400}
               src={visualThree}
               className="rounded-lg md:max-w-lg"
-              alt="Create Successful Business Models with Our IT Solutions"
+              alt="Endless study material"
             />
           </div>
         </div>
@@ -50,9 +52,10 @@ const CTA = () => {
           <div className="items-center gap-x-12 lg:flex">
             <div className="flex-1 sm:hidden lg:block">
               <Image
+                width={400}
                 src={visualTwo}
                 className="rounded-lg md:max-w-lg"
-                alt="Create Successful Business Models with Our IT Solutions"
+                alt="Personalized Study Plans"
               />
             </div>
             <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">

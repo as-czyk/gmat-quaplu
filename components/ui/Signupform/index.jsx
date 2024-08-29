@@ -22,10 +22,8 @@ const SignupForm = () => {
 
       const data = await res.json();
       if (res.ok) {
-        console.log(data.message);
-      } else {
-        console.log(data.error);
-      }
+        formRef.current?.reset();
+      } else console.log(data.error);
     } catch (error) {
       console.log("An error occurred" + error);
     }
@@ -44,6 +42,7 @@ const SignupForm = () => {
           type="email"
           required
           className="mt-2 focus:primary-600"
+          name="email"
         />
       </div>
       <div className="pt-1">

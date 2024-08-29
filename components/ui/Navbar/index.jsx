@@ -8,10 +8,7 @@ const Navbar = () => {
   const [state, setState] = useState(false);
   const { events } = useRouter();
 
-  const navigation = [
-    { title: "Features", path: "#cta" },
-    { title: "Our Approach", path: "#toolkit" },
-  ];
+  const navigation = [];
 
   useEffect(() => {
     // Close the navbar menu when navigate

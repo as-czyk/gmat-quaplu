@@ -2,7 +2,11 @@ import Link from "next/link";
 
 const Brand = () => (
   <Link href="/">
-    <img src="/Quaplu.svg" width={80} height={50} alt="Blinder logo" />
+    <img
+      src="/Quaplu.svg"
+      className="w-12 h-12 md:w-16 md:h-16"
+      alt="Quaplu logo"
+    />
   </Link>
 );
 export default Brand;

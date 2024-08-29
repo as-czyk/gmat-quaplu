@@ -9,8 +9,7 @@ const FooterCTA = () => (
           Start practicing with AI-generated GMAT questions today
         </h2>
         <p className="text-xl mt-3 text-gray-600">
-          Sign up to our waitlist or tell us more about yourself with our quick
-          survey and get{" "}
+          Sign up to our waitlist or complete our quick survey and get{" "}
           <span className="font-bold">
             20 GMAT exercises with solutions for free!
           </span>

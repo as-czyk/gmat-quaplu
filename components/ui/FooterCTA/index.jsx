@@ -6,12 +6,11 @@ const FooterCTA = () => (
     <div className="custom-screen">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-gray-800 text-4xl font-semibold sm:text-4xl">
-          Get your preperation started with 20 free GMAT practice questions
-          today.
+          Start practicing with AI-generated GMAT questions today
         </h2>
         <p className="text-xl mt-3 text-gray-600">
-          Sign up to our waitlist or tell us more about yourself with our
-          questionnaire and get{" "}
+          Sign up to our waitlist or tell us more about yourself with our quick
+          survey and get{" "}
           <span className="font-bold">
             20 GMAT exercises with solutions for free!
           </span>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import SignupForm from "../components/ui/Signupform";
 
 export default function GetStarted() {

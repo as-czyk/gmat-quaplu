@@ -1,23 +1,42 @@
-import { sql } from "@vercel/postgres";
 import Button from "../Button";
 import Input from "../Input";
+import { useRef } from "react";
 
 const SignupForm = () => {
-  const handleSubmit = async (email) => {
+  const formRef = useRef(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(formRef.current);
+    const email = formData.get("email");
+
     try {
-      await sql`
-        INSERT INTO EMAIL (email)
-        VALUES (${email})
-      `;
-      return true;
+      const res = await fetch("/api/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        console.log(data.message);
+      } else {
+        console.log(data.error);
+      }
     } catch (error) {
-      console.error("Failed to insert email:", error);
-      return false;
+      console.log("An error occurred" + error);
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5 font-medium">
+    <form
+      ref={formRef}
+      onSubmit={handleSubmit}
+      className="space-y-5 font-medium"
+    >
       <div>
         <label>Email *</label>
         <Input

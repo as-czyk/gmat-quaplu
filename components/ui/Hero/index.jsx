@@ -13,7 +13,6 @@ const Hero = () => (
           into the AI Century
         </h1>
         <p className="text-2xl max-w-xl mx-auto">
-          Achieve your target GMAT score efficiently without breaking the bank.
           Our tailored preparation saves you time and money, ensuring you're
           ready for success.{" "}
         </p>

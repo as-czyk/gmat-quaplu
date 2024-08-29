@@ -17,9 +17,6 @@ export default function Home() {
       <GradientWrapper>
         <CTA />
       </GradientWrapper>
-      <GradientWrapper>
-        <ToolKit />
-      </GradientWrapper>
       <FooterCTA />
     </>
   );

@@ -19,7 +19,7 @@ const Hero = () => (
             href="/get-started"
             className="text-white bg-primary-600 hover:bg-primary-800 "
           >
-            Join the waitlist
+            Start practicing now
           </NavLink>
           <NavLink
             href="#cta"

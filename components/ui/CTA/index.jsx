@@ -18,7 +18,7 @@ const CTA = () => {
           </div>
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Realisitc mock tests
+              Realistic mock tests
             </h2>
             <p className="mt-3 text-gray-600">
               Prepare for the real GMAT with our full-length mock tests,
@@ -31,7 +31,7 @@ const CTA = () => {
         <div className="items-center gap-x-12 lg:flex">
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Unlimited preperation tasks
+              Unlimited preparation tasks
             </h2>
             <p className="mt-3 text-gray-600">
               With Quaplu you never run out of study material! Our advanced AI

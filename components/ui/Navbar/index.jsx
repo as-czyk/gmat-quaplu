@@ -94,7 +94,7 @@ const Navbar = () => {
                   href="/get-started"
                   className="block font-medium text-sm text-white bg-primary-600 hover:bg-primary-800 active:bg-gray-900 md:inline"
                 >
-                  Join the waitlist
+                  Start practicing now
                 </NavLink>
               </li>
               <li>

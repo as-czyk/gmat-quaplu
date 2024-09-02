@@ -10,7 +10,7 @@ const Hero = () => (
           with ease
         </h1>
         <p className="text-2xl max-w-xl mx-auto">
-          Take your preperation to the next level with unlimited exercises and
+          Take your preparation to the next level with unlimited exercises and
           personalized study plans.
         </p>
         <div className="flex items-center justify-center gap-x-3 font-medium text-sm">

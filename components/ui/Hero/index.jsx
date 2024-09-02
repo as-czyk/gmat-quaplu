@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 import NavLink from "../NavLink";
 
 const Hero = () => (
@@ -30,7 +31,13 @@ const Hero = () => (
         </div>
       </div>
       <div className={"flex col justify-center items-center mt-4"}>
-        <NavLink className={"mt-4"} href="/get-started">
+        <NavLink
+          className={
+            "flex row items-center justify-center gap-4 mt-4 underline text-xl"
+          }
+          href="/get-started"
+        >
+          <ArrowRightIcon />
           Get your 20 free GMAT practice questions
         </NavLink>
       </div>

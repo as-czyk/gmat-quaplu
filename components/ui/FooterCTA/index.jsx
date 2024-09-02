@@ -19,7 +19,7 @@ const FooterCTA = () => (
             href="/get-started"
             className="mt-4 inline-block font-medium text-sm text-white bg-primary-600 hover:bg-primary-800"
           >
-            Join the waitlist
+            Start practicing today
           </NavLink>
           <NavLink
             target="_blank"

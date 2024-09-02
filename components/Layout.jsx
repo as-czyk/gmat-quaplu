@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "./ui/Footer";
 import Navbar from "./ui/Navbar";
+import { Toaster } from "react-hot-toast";
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Quaplu_transparent.svg" />
       </Head>
+      <Toaster position="top-right" />
       <Navbar />
       <main>{children}</main>
       <Footer />

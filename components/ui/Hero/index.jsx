@@ -1,9 +1,8 @@
 import NavLink from "../NavLink";
-import SignupForm from "../Signupform";
 
 const Hero = () => (
   <section>
-    <div className="custom-screen py-28 text-gray-600">
+    <div className="custom-screen py-20 text-gray-600">
       <div className="space-y-5 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
           Ace the{" "}
@@ -29,6 +28,11 @@ const Hero = () => (
             Learn more
           </NavLink>
         </div>
+      </div>
+      <div className={"flex col justify-center items-center mt-4"}>
+        <NavLink className={"mt-4"} href="/get-started">
+          Get your 20 free GMAT practice questions
+        </NavLink>
       </div>
     </div>
   </section>

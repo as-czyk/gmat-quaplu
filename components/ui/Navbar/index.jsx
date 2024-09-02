@@ -100,7 +100,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   target="_blank"
-                  href="https://form.typeform.com/to/TFlwT9Fc"
+                  href="https://form.typeform.com/to/TFlwT9Fc?utm_source=lp"
                   className="text-gray-700 border hover:bg-gray-50"
                   scroll={false}
                 >

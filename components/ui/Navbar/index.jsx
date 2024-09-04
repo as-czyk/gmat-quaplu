@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Brand from "../Brand";
 import NavLink from "../NavLink";
+import { TYPEFORM_URL } from "../../../utils/constants";
 
 const Navbar = () => {
   const [state, setState] = useState(false);
@@ -108,7 +109,7 @@ const Navbar = () => {
                   className="text-gray-700 border hover:bg-gray-50"
                   scroll={false}
                 >
-                  Tell us more
+                  Complete the survey
                 </NavLink>
               </li>
             </ul>

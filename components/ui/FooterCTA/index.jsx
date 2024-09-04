@@ -27,7 +27,7 @@ const FooterCTA = () => (
             href={TYPEFORM_URL}
             className="mt-4 inline-block font-medium text-sm text-gray-700 border hover:bg-gray-50"
           >
-            Tell us more
+            Complete the survey
           </NavLink>
         </div>
       </div>

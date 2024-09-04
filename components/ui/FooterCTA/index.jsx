@@ -1,3 +1,4 @@
+import { TYPEFORM_URL } from "../../../utils/constants";
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
 
@@ -23,7 +24,7 @@ const FooterCTA = () => (
           </NavLink>
           <NavLink
             target="_blank"
-            href="https://form.typeform.com/to/TFlwT9Fc?utm_source=lp"
+            href={TYPEFORM_URL}
             className="mt-4 inline-block font-medium text-sm text-gray-700 border hover:bg-gray-50"
           >
             Tell us more

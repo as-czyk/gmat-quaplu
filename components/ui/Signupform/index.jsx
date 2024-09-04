@@ -1,3 +1,6 @@
+"use client";
+
+import { TYPEFORM_URL } from "../../../utils/constants";
 import Button from "../Button";
 import Input from "../Input";
 import { useRef } from "react";
@@ -20,9 +23,7 @@ const SignupForm = () => {
         },
         body: JSON.stringify({ email }),
       });
-
-      const data = await res.json();
-      if (res.ok) {
+      if (res) {
         formRef.current?.reset();
         toast.success("Added to the waitlist successfully", {
           duration: 4000,
@@ -34,6 +35,7 @@ const SignupForm = () => {
             border: "1px solid var(--primary-600)",
           },
         });
+        window.open(TYPEFORM_URL, "_blank");
       } else {
         toast.error("Something went wrong, please try again.", {
           duration: 4000,

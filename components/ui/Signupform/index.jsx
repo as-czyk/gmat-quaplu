@@ -79,6 +79,7 @@ const SignupForm = () => {
             className="mt-2 focus:primary-600"
             name="email"
           />
+          <small>By signing up you agree to our data privacy statement.</small>
         </div>
         <div className="pt-1">
           <Button className="w-full text-white bg-primary-600 hover:bg-primary-800">
